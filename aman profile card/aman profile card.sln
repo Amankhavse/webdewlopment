@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "aman profile card", ".", "{2B043E5C-E984-44F3-A54E-487ED37B80E1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53162"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\OneDrive\Desktop\practice\aman profile card\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53162\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53162"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\OneDrive\Desktop\practice\aman profile card\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53162\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53162"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B043E5C-E984-44F3-A54E-487ED37B80E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B043E5C-E984-44F3-A54E-487ED37B80E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12A893E3-B5F5-4F06-BEF2-738ED56F5255}
+	EndGlobalSection
+EndGlobal
