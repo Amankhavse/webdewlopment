@@ -1,0 +1,233 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="zxx">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Udemy</title>
+    <link rel=icon href="assets/my_img/favicon01.png" sizes="20x20" type="image/png">
+
+       
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="assets/css/magnific.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/owl.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div>
+        <!-- search popup start-->
+        <div class="td-search-popup" id="td-search-popup">
+            <form action="https://wowtheme7.com/tf/escola/index.html" class="search-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search.....">
+                </div>
+                <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <!-- search popup end-->
+        <div class="body-overlay" id="body-overlay"></div>
+
+        <div class="navbar-top pe-3 bg-base d-lg-block d-none">
+            <div class="container nav-container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <ul>
+                            <li class="text-white"><i class="text-white fa fa-map-marker-alt"></i>Gurugram India</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <ul class="topbar-right">
+                            <li class="me-4 text-white"><i class="text-white fa fa-phone-alt"></i>9999999999</li>
+                            <li class="text-white">
+                                <i class="text-white fa fa-envelope"></i>
+                                <a href="mailto:Udemy001@gmail.com" target="_blank" class="text-white text-decoration-none">Udemy001@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar start -->
+        <nav class="navbar navbar-area navbar-area-2 navbar-expand-lg">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <button class="menu toggle-btn d-block d-lg-none" data-target="#itech_main_menu"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/my_img/my_logo.png"  alt="img"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="itech_main_menu">
+                    <ul class="navbar-nav menu-open text-lg-end">
+                        <li>
+                            <a href="Default.aspx">Home</a>
+                          
+                        </li>
+                        <li><a href="About.aspx">About Us</a></li>
+                        <li>
+                            <a href="Course.aspx">Course</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="Blog.aspx">Blog</a>
+                           
+                        </li>
+                        <li><a href="Contect.aspx">Contact Us</a></li>
+                    </ul>
+                </div>
+                              <div class="nav-right-part nav-right-part-desktop d-lg-inline-flex align-item-center">
+                <div class="header-search d-inline-block">
+                    <input type="text" placeholder="Search">
+                    <button>
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.25 8.625C16.25 10.4219 15.6641 12.1016 14.6875 13.4297L19.6094 18.3906C20.1172 18.8594 20.1172 19.6797 19.6094 20.1484C19.1406 20.6562 18.3203 20.6562 17.8516 20.1484L12.8906 15.1875C11.5625 16.2031 9.88281 16.75 8.125 16.75C3.63281 16.75 0 13.1172 0 8.625C0 4.17188 3.63281 0.5 8.125 0.5C12.5781 0.5 16.25 4.17188 16.25 8.625ZM8.125 14.25C11.2109 14.25 13.75 11.75 13.75 8.625C13.75 5.53906 11.2109 3 8.125 3C5 3 2.5 5.53906 2.5 8.625C2.5 11.75 5 14.25 8.125 14.25Z" fill="white"/>
+                        </svg>
+
+                    </button>
+                </div>
+                <a class="header-cart" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 18C17.5304 18 18.0391 18.2107 18.4142 18.5858C18.7893 18.9609 19 19.4696 19 20C19 20.5304 18.7893 21.0391 18.4142 21.4142C18.0391 21.7893 17.5304 22 17 22C16.4696 22 15.9609 21.7893 15.5858 21.4142C15.2107 21.0391 15 20.5304 15 20C15 18.89 15.89 18 17 18ZM1 2H4.27L5.21 4H20C20.2652 4 20.5196 4.10536 20.7071 4.29289C20.8946 4.48043 21 4.73478 21 5C21 5.17 20.95 5.34 20.88 5.5L17.3 11.97C16.96 12.58 16.3 13 15.55 13H8.1L7.2 14.63L7.17 14.75C7.17 14.8163 7.19634 14.8799 7.24322 14.9268C7.29011 14.9737 7.3537 15 7.42 15H19V17H7C6.46957 17 5.96086 16.7893 5.58579 16.4142C5.21071 16.0391 5 15.5304 5 15C5 14.65 5.09 14.32 5.24 14.04L6.6 11.59L3 4H1V2ZM7 18C7.53043 18 8.03914 18.2107 8.41421 18.5858C8.78929 18.9609 9 19.4696 9 20C9 20.5304 8.78929 21.0391 8.41421 21.4142C8.03914 21.7893 7.53043 22 7 22C6.46957 22 5.96086 21.7893 5.58579 21.4142C5.21071 21.0391 5 20.5304 5 20C5 18.89 5.89 18 7 18ZM16 11L18.78 6H6.14L8.5 11H16Z" fill="#25C6DA"/>
+                    </svg>
+                </a>
+            </div>
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- footer area start -->
+        <footer class="footer-area  footer-area-2 bg-cover pd-top-110" style="background-image: url('assets/img/bg/3.png');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget widget_about">
+                            <div class="thumb">
+                                <img src="#" alt="">
+                            </div>
+                            <div class="details">
+                                <p>Stay connected with us on social media for updates, new courses, and learning tips.</p>
+
+                                <ul class="social-media">
+                                    <li>
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.x.com/" target="_blank">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/" target="_blank">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget widget_nav_menu ps-xl-5">
+                            <h4 class="widget-title">All Links</h4>
+                            <ul>
+                                <li><a href="service.html"><i class="fas fa-arrow-right"></i>Credit industrys</a></li>
+                                <li><a href="service.html"><i class="fas fa-arrow-right"></i>Credit Consulting</a></li>
+                                <li><a href="service.html"><i class="fas fa-arrow-right"></i>Business Credit industry </a></li>
+                                <li><a href="service.html"><i class="fas fa-arrow-right"></i>Finance industry</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget widget_nav_menu">
+                            <h4 class="widget-title">Leadership</h4>
+                            <ul>
+                                <li><a href="service.html"><i class="fas fa-arrow-right"></i>Leadership</a></li>
+                                <li><a href="service.html"><i class="fas fa-arrow-right"></i>Management Skills</a></li>
+                                <li><a href="service.html"><i class="fas fa-arrow-right"></i>Project Management</a></li>
+                                <li><a href="service.html"><i class="fas fa-arrow-right"></i>Personal Productivity</a></li>
+                                <li><a href="service.html"><i class="fas fa-arrow-right"></i>Emotional Intelligence</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget widget-recent-post">
+                            <h4 class="widget-title">Contact us</h4>
+                            <div class="widget widget_contact">
+                                <ul class="details">
+                                    <li><i class="fas fa-map-marker-alt"></i>Gurgao India</li>
+                                    <li class="mt-3"><i class="fas fa-phone-alt"></i>9999999999</li>
+                                    <li class="mt-2"><i class="fas fa-envelope"></i>Udemy001@mail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 align-self-center">
+                            <p>© Udemy 2026 | All Rights Reserved By Aman</p>
+                        </div>
+                        <div class="col-lg-6 text-lg-end">
+                            <a href="#">Trams & Condition</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="Contect.aspx">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end -->
+
+        <!-- back to top area start -->
+        <div class="back-to-top">
+            <span class="back-top"><i class="fa fa-angle-up"></i></span>
+        </div>
+        <!-- back to top area end -->
+    </div>
+    <!-- all plugins here -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/magnific.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/owl.min.js"></script>
+    <script src="assets/js/counter-up.min.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/waypoint.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
